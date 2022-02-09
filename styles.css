@@ -8,6 +8,10 @@ a
 {
 	text-decoration: none;
 }
+body
+{
+	background-color: #6c4cd3;
+}
 
 /*--- CONTENT PAGE  ---*/
 
@@ -23,21 +27,33 @@ a
 .formulaire
 {
 	border: 1px solid black;
-	width: 210px;
-	height: 320px;
+	width: 250px;
+	height: 300px;
 	text-align: center;
 	margin-right:auto;
 	margin-left: auto;
 	padding-top: 20px;
 }
-.col
+.col-img
 {
 	border: 1px solid green;
-	width: 300px;
+	width: 400px;
 	display: inline-block;
 	height: 500px;
 	vertical-align: top;
-
+}
+.col-fo
+{
+	border: 1px solid green;
+	width: 400px;
+	display: inline-block;
+	height: 500px;
+	vertical-align: top;
+	/*margin-left:50px ;*/
+	float: right;
+	background-color: #fff;
+	border-top-right-radius:15px ;
+	border-bottom-right-radius:15px ;
 }
 .form-box
 {
@@ -52,21 +68,22 @@ a
 	border-top: none;
 	height: 20px;
 	margin-left: 10px;
-	width: 150px;
+	width: 165px;
 }
 .form-box label
 {
 	float: left;
 	font-size: 13px;
-	margin-left: 30px;
+	margin-left: 25px;
 }
 .text
 {
-	width: 150px;
+	width: 160px;
 	text-align: left;
-	margin-left: 35px;
 	color: #634abf;
-	font-size: 20px;
+	font-size: 25px;
+	margin-left: 53px;
+	margin-bottom: 10px;
 }
 .text span
 {
@@ -76,13 +93,14 @@ button
 {
 	margin-top: 15px;
 	margin-bottom: 5px;
-	width:120px;
-	height: 30px;
+	width:150px;
+	height: 35px;
 	font-size: 15px;
 	background:#5b3ac9 ;
 	color: #fff;
 	border-radius: 3px;
 	border: none;
+	line-height: 1;
 }
 button:hover
 {
