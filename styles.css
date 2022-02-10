@@ -10,7 +10,11 @@ a
 }
 body
 {
-	background-color: #6c4cd3;
+	background-color:#6c4cd3;
+}
+h4 a
+{
+	color: #fff;
 }
 
 /*--- CONTENT PAGE  ---*/
@@ -21,39 +25,53 @@ body
 	margin-right:auto;
 	margin-left: auto;
 	text-align: center;
-	border: 1px solid red;
-	margin-top: 150px;
+	margin-top: 70px;
 }
+
+/*---- PARTIE IMAGE ----*/
+
+.col-img
+{
+	width: 500px;
+	display: inline-block;
+	height: 500px;
+	vertical-align: top;
+	color: #fff;
+	background-color: #8b6ee5;
+	border-top-left-radius:15px ;
+	border-bottom-left-radius:15px ;
+}
+.soleil
+{
+	position: relative;
+	z-index: 2;
+	/*height: 150px;*/
+	width: 450px;
+}
+
+/*----- PARTIE FORMULAIRE -----*/
+
 .formulaire
 {
-	border: 1px solid black;
-	width: 250px;
-	height: 300px;
+	border: 1px solid #000;
+	width: 230px;
+	height: 290px;
 	text-align: center;
 	margin-right:auto;
 	margin-left: auto;
 	padding-top: 20px;
 }
-.col-img
-{
-	border: 1px solid green;
-	width: 400px;
-	display: inline-block;
-	height: 500px;
-	vertical-align: top;
-}
 .col-fo
 {
-	border: 1px solid green;
 	width: 400px;
 	display: inline-block;
 	height: 500px;
 	vertical-align: top;
-	/*margin-left:50px ;*/
-	float: right;
 	background-color: #fff;
 	border-top-right-radius:15px ;
 	border-bottom-right-radius:15px ;
+	position: relative;
+	right: 10px;
 }
 .form-box
 {
@@ -68,12 +86,12 @@ body
 	border-top: none;
 	height: 20px;
 	margin-left: 10px;
-	width: 165px;
+	width: 150px;
 }
 .form-box label
 {
 	float: left;
-	font-size: 13px;
+	font-size: 12px;
 	margin-left: 25px;
 }
 .text
@@ -81,7 +99,7 @@ body
 	width: 160px;
 	text-align: left;
 	color: #634abf;
-	font-size: 25px;
+	font-size: 20px;
 	margin-left: 53px;
 	margin-bottom: 10px;
 }
@@ -93,9 +111,9 @@ button
 {
 	margin-top: 15px;
 	margin-bottom: 5px;
-	width:150px;
+	width:130px;
 	height: 35px;
-	font-size: 15px;
+	font-size: 20px;
 	background:#5b3ac9 ;
 	color: #fff;
 	border-radius: 3px;
@@ -110,7 +128,7 @@ button:hover
 }
 .formulaire p
 {
-	font-size: 12px;
+	font-size: 10px;
 	color:#634abf ;
 }
 p span
