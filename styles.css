@@ -34,26 +34,41 @@ h4 a
 {
 	width: 500px;
 	display: inline-block;
-	height: 500px;
+	height: 480px;
 	vertical-align: top;
 	color: #fff;
 	background-color: #8b6ee5;
 	border-top-left-radius:15px ;
 	border-bottom-left-radius:15px ;
+	box-shadow: 10px 10px 2px #6146c7;
 }
 .soleil
 {
 	position: relative;
-	z-index: 2;
-	/*height: 150px;*/
+	margin-top: 80px;
 	width: 450px;
+	border: none;
+}
+.col-img h4 a
+{
+	font-size: 13px;
+	position: relative;
+	bottom: 20px;
+	font-weight: none;
+}
+.col-img span
+{
+	font-size: 11px;
+	margin-top: 20px;
+	float: left;
+	margin-left: 50px;
 }
 
 /*----- PARTIE FORMULAIRE -----*/
 
 .formulaire
 {
-	border: 1px solid #000;
+	border: 1px solid rgba(0, 0, 0, 0.1);
 	width: 230px;
 	height: 290px;
 	text-align: center;
@@ -63,15 +78,16 @@ h4 a
 }
 .col-fo
 {
-	width: 400px;
+	width: 370px;
 	display: inline-block;
-	height: 500px;
+	height: 480px;
 	vertical-align: top;
 	background-color: #fff;
 	border-top-right-radius:15px ;
 	border-bottom-right-radius:15px ;
 	position: relative;
 	right: 10px;
+	box-shadow: 5px 10px 2px #6146c7;
 }
 .form-box
 {
@@ -84,6 +100,7 @@ h4 a
 	border-right: none;
 	border-left: none;
 	border-top: none;
+	opacity: 0.4;
 	height: 20px;
 	margin-left: 10px;
 	width: 150px;
@@ -93,6 +110,7 @@ h4 a
 	float: left;
 	font-size: 12px;
 	margin-left: 25px;
+	opacity: 0.6;
 }
 .text
 {
@@ -102,6 +120,8 @@ h4 a
 	font-size: 20px;
 	margin-left: 53px;
 	margin-bottom: 10px;
+	line-height: 18px;
+}
 }
 .text span
 {
