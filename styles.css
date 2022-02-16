@@ -8,18 +8,15 @@ a
 {
 	text-decoration: none;
 }
-body
+#pg_ins
 {
-	background-color:#6c4cd3;
+	background:linear-gradient(to bottom right,#6747d0 , #896ce3);
 }
-h4 a
-{
-	color: #fff;
-}
+
 
 /*--- CONTENT PAGE  ---*/
 
-.row
+.inscrip
 {
 	width: 970px;
 	margin-right:auto;
@@ -37,10 +34,14 @@ h4 a
 	height: 480px;
 	vertical-align: top;
 	color: #fff;
-	background-color: #8b6ee5;
+	background: linear-gradient(to top right,#5d3ccb,#8b6ee5);
 	border-top-left-radius:15px ;
 	border-bottom-left-radius:15px ;
 	box-shadow: 10px 10px 2px #6146c7;
+}
+.col-img h4 a
+{
+	color: #fff;
 }
 .soleil
 {
@@ -127,7 +128,7 @@ h4 a
 {
 	font-weight: bold;
 }
-button
+.form-box button
 {
 	margin-top: 15px;
 	margin-bottom: 5px;
@@ -154,4 +155,11 @@ button:hover
 p span
 {
 	font-weight: bold;
+}
+
+/*----- PAGE DE CONNECTION -------*/
+
+body
+{
+	background: linear-gradient(to top,#240056,#5d018a);
 }
